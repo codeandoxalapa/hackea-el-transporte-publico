@@ -1,0 +1,153 @@
+/*Container - Avisos Comunicados*/
+.container-avisos-comunicados{
+	position: fixed;
+	height: 100%;
+	width: 364px;
+	overflow: hidden;
+	right: -315px;
+	z-index: 100;
+	top: 10px;
+}
+.container-avisos-comunicados-mostrar{
+	right: 0px;
+}
+.container-avisos-comunicados-trasicion{
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+/*Barra de accion*/
+.barra-accion,.panel-avisos-comunicados,
+.panel-timeline-twitter{
+	float: left;
+}
+.container-avisos-comunicados .barra-accion{
+    width: 40px;
+    margin-right: 10px;
+}
+.barra-accion .btn-timeline{
+	color: #fff;
+	background-color: #05386B;
+	border-color: #05386B;
+	border: 1px solid #05386B;
+	margin-bottom: 10px;
+}
+.barra-accion .btn-timeline:hover{
+	background-color: #05386B;
+	border-color: #05386B;
+}
+/*Panel*/
+.timeline-avisoscomunicados,
+.timeline-twitter{
+	display: none;
+}
+.panel-avisos-comunicados,
+.panel-timeline-twitter{
+	width: 300px;
+}
+.panel-avisos-comunicados .panel-heading h2,
+.panel-timeline-twitter .panel-heading h2{
+	color: #05386B;
+    margin: 0px;
+    font-size: 20px;
+    font-family: 'latobold';
+}
+.panel-avisos-comunicados .panel-body p,
+.panel-timeline-twitter .panel-body p{
+	margin-bottom: 0px;
+    font-family: 'latoregular';
+    font-size: 14px;
+    line-height: 18px;
+    color: #737373;
+}
+.panel-avisos-comunicados .panel-footer,
+.panel-timeline-twitter .panel-footer{
+	text-align: center;
+}
+.panel-avisos-comunicados .aviso-comunicado{
+	word-wrap: break-word;
+}
+.aviso-comunicado h5{
+	margin: 0px;
+    margin-bottom: 10px;
+    font-family: 'latobold';
+    color: #6B6B6B;
+    font-size: 15px;
+    line-height: 19px;
+}
+.aviso-comunicado img{
+	width: 100%;
+	height: 100%;
+	margin-bottom: 10px;
+}
+.aviso-comunicado a,
+.aviso-comunicado a:hover,
+.aviso-comunicado a:active{
+	text-decoration: none;
+	font-family: 'latobold';
+	color: #56ca8a;
+	font-size: 13px;
+}
+.aviso-comunicado p{
+	margin-bottom: 0px;
+    font-family: 'latoregular';
+    font-size: 12px;
+    line-height: 18px;
+}
+.aviso-comunicado p.fecha{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.aviso-comunicado p.fecha span{
+	margin-right: 3px;
+}
+.cerrar-panel{
+	float: right;
+	margin-top: 1px;
+	cursor: pointer;
+}
+.logo-SMN{
+	width: 35%;
+}
+/*Scroll*/
+#scroll-panel {
+	overflow: auto;
+	width: 310px;
+	height: 400px;
+}
+.barra-scroll{
+	width: 10px;
+	background: rgba(0, 0, 0, 0);
+	margin-right: 2px;
+	border-radius: 0px;
+	-webkit-transition: background 250ms linear;
+	transition: background 250ms linear;	
+}
+.barra-scroll:hover,
+.barra-scroll.dragging {
+	background: #d9d9d9; 
+	background: rgba(0, 0, 0, 0.15);
+}
+.barra-manejadora {
+	width: 8px;
+	right: 0;
+	background: #999;
+	background: rgba(0, 0, 0, 0.4);
+	border-radius: 0px;
+	-webkit-transition: width 250ms;
+	transition: width 250ms;
+}
+.barra-scroll:hover .barra-manejadora,
+.barra-scroll.dragging .barra-manejadora{
+	width: 10px;
+}
+/*Utilidades*/
+.blanco{
+	color: #fff;
+}
+.verde{
+    color: #0BA758;
+}
+.azul{
+	color: #05386B;	
+}

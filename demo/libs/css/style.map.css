@@ -1,0 +1,67 @@
+/*Map*/
+
+
+/* css to customize Leaflet default styles to Popup  */
+
+/*Contenedor Popup*/
+.leaflet-container .custom  a.leaflet-popup-close-button:hover{
+	color: #FFF;
+}
+/*Buscador*/
+.custom-popup .leaflet-popup-content {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.custom-popup .leaflet-popup-content h5, .custom-popup .leaflet-popup-content h4 {
+    font-family: 'latobold';
+}
+.custom-popup .leaflet-popup-content h5 {
+    color: #6B6B6B;
+    line-height: 16px;
+    font-size: 15px;
+}
+.custom-popup .leaflet-popup-content ul {
+    clear: both;
+    padding: 0px;
+    list-style: none;
+    color: #737373;
+}
+.custom-popup .leaflet-popup-content ul, .custom-popup .leaflet-popup-content p, 
+.custom-popup .leaflet-popup-content a {
+    font-family: 'latoregular';
+    font-size: 13px;
+}
+.custom-popup .leaflet-popup-content ul li {
+    margin-bottom: 3px;
+}
+.custom-popup .leaflet-popup-content ul li.img {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.custom-popup .leaflet-popup-content ul li.img img{
+	width: 100%;
+	margin-top: 5px;
+}
+.custom-popup .leaflet-popup-tip, .custom-popup .leaflet-popup-content-wrapper {
+    background-color: #FFFFFF;
+}
+.custom-popup .leaflet-popup-content-wrapper {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+.nav-step label, .nav-step p,
+.nav-step ul, .nav-step li{
+	color: #fff;
+	font-family: 'latolight';
+}
+.nav-step ul, .nav-step li{
+	font-size: 14px;
+}
+.nav-step p{
+	padding: 10px;
+	font-size: 16px;
+	margin-bottom: 0px;
+}

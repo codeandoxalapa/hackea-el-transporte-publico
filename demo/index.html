@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mapaton Xalapa 2016</title>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/png" href="libs/images/favicon.png">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/css/style.app.css">
+    <link rel="stylesheet" href="libs/css/style.map.css">
+    <link rel="stylesheet" href="libs/css/leaflet.draw.css">
+    <link rel="stylesheet" href="libs/css/style.avicomu.css">
+  </head>
+  <body>
+    <div class="container-fluid">
+
+      <!-- Loading -->
+      <div class="layer-map"></div>
+      
+      <div id="wrapper">
+
+        <div id="header">
+
+          <div id="cbp-spmenu-s2" class="container-avisos-comunicados container-avisos-comunicados-trasicion">
+
+            <div class="barra-accion">
+              <div class="boton">
+                <button type="button" class="btn btn-timeline open-close avisos" title="Avisos y Comunicados">
+                  <span class="glyphicon glyphicon-globe blanco"></span>
+                </button>
+              </div>
+            </div>
+
+            <div class="panel-avisos-comunicados">
+              <div class="panel panel-default timeline-avisoscomunicados">
+                <div class="panel-heading">
+                  <h2>Rutas Mapeadas
+                    <span class="glyphicon glyphicon-remove-circle azul cerrar-panel"></span>
+                  </h2>
+                </div>
+                <div class="panel-body">
+                  <p>Rutas Mapeadas de Transporte P&uacute;blico en Mapat&oacute;n Ciudadano Xalapa 2016</p>
+                </div>
+                <ul id="scroll-panel" class="list-group">
+                    <li class="aviso-comunicado list-group-item">
+                      <h5>INICIO Reserva Territorial - 20 de Noviembre- Econom&iacute;a - Avenida Xalapa</h5>
+                      <p class="fecha">
+                      <span class="glyphicon glyphicon-time azul"></span> Mapeado - 10:00AM</p>
+                      <img src="libs/images/rutas/17.png">
+                      <p><a class="item-route" id="13922705" href="#">Ver Ruta en Mapa</a></p>
+                    </li>
+                    <li class="aviso-comunicado list-group-item">
+                      <h5>INICIO Escuela Normal Veracruzana - Avenida Xalapa, Econom&iacute;a, Clavijero, 
+                        Reserva Territorial</h5>
+                      <p class="fecha">
+                      <span class="glyphicon glyphicon-time azul"></span> Mapeado - 10:00AM</p>
+                      <img src="libs/images/rutas/18.png">
+                      <p><a class="item-route" id="13923205" href="#">Ver Ruta en Mapa</a></p>
+                    </li>
+                  </ul>
+                  <div class="panel-footer"></div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div id="content">
+
+          <!-- sidebar izq -->
+          <div id="sidebar" class="col-md-2 sin-padding">
+            
+            <div class="logo">
+              <img src="libs/images/logo-codeando.png">
+            </div>
+
+            <div class="nav-sidebar">
+              <ul class="sidebar-cartografia">
+                <li class="sigma"><h2><a href="#">MAPAT&Oacute;N XALAPA 2016 </a></h2></li>
+              </ul>
+            </div>
+
+            <div class="nav-step">
+
+              <p>Este demo permite visualizar las rutas de transporte p&uacute;blico mapeadas durante 
+                el Mapat&oacute;n Ciudadano Xalapa 2016.</p>
+
+              <ul>
+                <li>Listado de Rutas</li>
+                <li>Horario de Mapeo</li>
+                <li>Fotografia del vehiculo</li>
+                <li>Trayecto del vehiculo</li>
+                <li>Paradas de pasajeros</li>
+                <li>Ubicación de la parada de pasajeros</li>
+                <li>Imagen de referencia de la parada de pasajeros</li>
+              </ul>
+              
+            </div>
+
+          </div><!-- sidebar -->
+
+          <div id="contentright" class="col-md-10 sin-padding">
+            
+            <!-- Mapa -->
+            <div id="map"></div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <script type="text/javascript" src="libs/js/jquery/jquery.js"></script>
+      <script type="text/javascript" src="libs/js/jquery/jquery-ui.js"></script>
+      <script type="text/javascript" src="libs/js/map/leaflet.js"></script>
+      <script type="text/javascript" src="libs/js/jquery/enscroll-0.6.0.min.js"></script>
+      <script type="text/javascript" src="libs/js/app/main.js"></script>
+
+    </div>
+  </body>
+</html>
