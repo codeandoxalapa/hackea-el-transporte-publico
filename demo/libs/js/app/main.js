@@ -155,7 +155,7 @@ function onEachFeature(feature, layer) {
 		popUpContent += "<h5>Parada: #"+unit+"</h5>";
       	popUpContent += "<ul>";
       	popUpContent += "<li>Ubicación: "+location+"</li>";
-      	popUpContent += "<li class='img'><img src='/mapaton-demo/libs/images/stops/"+unit+".png'/></li>";
+      	popUpContent += "<li class='img'><img src='libs/images/stops/"+unit+".png'/></li>";
       	popUpContent += "</ul>";
 		layer.bindPopup(popUpContent, customOptions);
 
